@@ -1,6 +1,6 @@
 <img title="42_pipex" alt="42_pipex" src="./subject/banner.png" width="100%">
 
-|          Grade           |            Tests          |
+|          Grade           |                           |
 |:------------------------:|:-------------------------:|
 | ![](./subject/grade.png) | ![](./subject/detail.png) |
 	
@@ -32,6 +32,7 @@ cmd << LIMITER | cmd1 >> file
 - Compréhension des appels systèmes UNIX (`pipe`, `fork`, `dup2`, `execve`, etc.)
 - Manipulation de processus et redirection de flux (`access`, `open`, `close`, `read`, `write`, etc.)
 - Gestion fine des erreurs (`perror`, `strerror`)
+- Utilisation de la variable d’environnement (`env`) (par exemple, `PATH`) pour localiser les commandes
 
 ## Installation
 ```bash
@@ -86,6 +87,7 @@ cmd << LIMITER | cmd1 >> file
 - Deep understanding of UNIX system calls (`pipe`, `fork`, `dup2`, `execve`, etc.)
 - Process creation and stream redirection (`access`, `open`, `close`, `read`, `write`, etc.)
 - Robust error handling (`perror`, `strerror`)
+- Use of environment variable (`env`) (e.g. `PATH`) to resolve commands
 
 ## Installation
 ```bash
@@ -140,6 +142,7 @@ cmd << LIMITER | cmd1 >> file
 - Работа с системными вызовами UNIX (`pipe`, `fork`, `dup2`, `execve` и др.)
 - Управление процессами и перенаправлением ввода/вывода (`access`, `open`, `close`, `read`, `write` и др.)
 - Обработка ошибок (`perror`, `strerror`)
+- Использование переменной окружения (`env`) (например, `PATH`) для поиска команд
 
 
 ## Установка
